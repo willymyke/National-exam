@@ -1,0 +1,28 @@
+ body{
+    background-color: khaki;
+ }
+ .form{
+  justify-content: center;
+  border: 5px black solid;
+  width: 300px;
+  height: auto;
+  margin: 8pc auto;
+  border-radius: 8px;
+  backdrop-filter: brur(20px);
+  background-color: cornflowerblue;
+  }
+  .form form{
+    margin: 2pc;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
+    
+}
+.form input{
+    margin-top: 10px;
+    width: 15rem;
+    display: flex;
+    height: 1.2rem;
+    border-radius: 2px;
+}
